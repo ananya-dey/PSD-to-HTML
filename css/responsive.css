@@ -1,0 +1,240 @@
+/*Responsive*/
+/*Medium layout 1200px*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    /*header section*/
+    .navbar-nav{
+        margin: 55px 25px;
+    }
+    .login-form{
+        margin: 55px 25px;
+    }
+    .navbar .navbar-nav li a{
+        padding: 5px 15px;
+    }
+    /*slider section*/
+    .slider-content{
+        top: 16%;
+    }
+    .slider-content-title{
+        font-size: 32px;
+    }
+    /*full section*/
+    .full-section{
+        margin-top: 8.2%;
+    }
+    .section-2-content{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10% 0;
+    }
+    .right-section{
+        padding: 0 5px;
+    }
+    .right-section .fb-add-img{
+        padding-top: 80%;
+    }
+    /*chart*/
+    .chart{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .chart-content .panel .panel-body p{
+        padding: 5px 0;
+        width: 120px;
+    }
+    .chart-content .panel-body .cost{
+        margin-right: 20px;
+    }
+}
+
+/*Tablet layout 768px*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /*header section*/
+    body, .register-btn{
+        font-size: 12px;
+    }
+    .navbar-nav{
+        margin: 55px 10px;
+    }
+    .login-form{
+        margin: 55px 10px;
+    }
+    .login-form .form-control{
+        width: 48%;
+    }
+    .form-group{
+        width: 34%;
+    }
+    .navbar .navbar-nav li a{
+        padding: 5px 10px;
+    }
+    /*slider section*/
+    .slider-content{
+        top: 18%;
+    }
+    .slider-content-title{
+        font-size: 25px;
+    }
+    .slider-content .slider-images{
+        padding: 10% 0;
+    }
+    /*full section*/
+    .full-section{
+        margin-top: -10%;
+    }
+    .section-2-content{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10% 0;
+    }
+    .right-section{
+        padding: 0 15px;
+    }
+    .right-section .fb-add-img{
+        padding: 0;
+    }
+    .section-1{
+        margin: 8% 0;
+    }
+    .section-2-title, .chart-title{
+        font-size: 30px;
+        margin: 8% 0;
+    }
+    .slider-content .slider-images{
+        padding: 5% 0;
+    }
+    /*nav tabs*/
+    .nav-tabs{
+        margin-top: -60px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .nav-tabs li {
+        width: 28%;
+    }
+    .nav-tabs-content{
+        font-size: 15px;
+        padding: 30px;
+    }
+    /*chart*/
+    .chart{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .chart-content .panel .panel-body p{
+        padding: 5px 0;
+        width: 250px;
+    }
+    .chart-content .panel-body .cost{
+        margin-right: 155px;
+    }
+}
+
+/*Mobile layout 320px*/
+@media only screen and (max-width: 767px) {
+    /*header section*/
+    body, .register-btn{
+        font-size: 12px;
+    }
+    .navbar-nav{
+        margin: 55px 0px;
+    }
+    .login-form{
+        margin: 55px 0px;
+    }
+    .navbar .navbar-nav li a{
+        padding: 5px 10px;
+    }
+    /*slider section*/
+    .slider-content{
+        top: 12%;
+    }
+    .slider-content-title{
+        font-size: 12px;
+    }
+    .slider-images img{
+        height: 30px;
+        width: 60px;
+    }
+    .slider-content .slider-images{
+        padding: 5px 0;
+    }
+    .social-links li a{
+        padding: 10px;
+        height: 30px;
+        width: 30px;
+    }
+    .social-links i{
+        font-size: 15px;
+    }
+    /*full section*/
+    .full-section{
+        margin-top: -65%;
+    }
+    .section-2-content{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10% 0;
+    }
+    .right-section{
+        padding: 0 15px;
+    }
+    .right-section .fb-add-img{
+        padding: 0;
+    }
+    .section-1{
+        padding: 10% 0;
+    }
+    .section-2-title, .chart-title{
+        font-size: 30px;
+        padding: 10% 0;
+    }
+    /*nav tabs*/
+    .nav-tabs img{
+        height: 50px;
+        width: 50px;
+    }
+    .nav-tabs{
+        margin-top: -41px;
+        padding-top: 50px;
+    }
+    .nav-tabs li {
+        width: 27%;
+    }
+    .nav-tabs-content{
+        font-size: 8px;
+        padding: 15px;
+    }
+    /*chart*/
+    .chart{
+        margin-top: 10%;
+    }
+    .chart-content .panel .panel-body p{
+        padding: 5px 0;
+        width: 235px;
+    }
+    .chart-content .panel-body .cost{
+        margin-right: 115px;
+    }
+    /*footer*/
+    footer{
+        text-align: center;
+    }
+    .contact-info{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+/*Wide mobile layout 480px*/
+@media only screen and (max-width: 375px) {
+    .slider-section{
+        height: 435px;
+    }
+    .full-section{
+        margin-top: -60%;
+    }
+    .slider-content{
+        top: 9%;
+    }
+}
